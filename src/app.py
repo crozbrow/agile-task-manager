@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
-from task_service import create_task, get_tasks
+from .task_service import create_task, get_tasks
+
+
 
 app = Flask(__name__)
 
@@ -17,4 +19,5 @@ def list_tasks():
     return jsonify(get_tasks())
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
+
