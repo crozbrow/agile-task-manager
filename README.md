@@ -21,6 +21,7 @@ atendendo uma startup do setor de logística.
 
 ## 🔁 Metodologia Ágil Utilizada
 Foi adotado o **Kanban**, utilizando o GitHub Projects, com as colunas:
+
 - A Fazer   
 - Em Progresso
 - Concluído
