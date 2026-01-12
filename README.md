@@ -44,3 +44,5 @@ e adaptação rápida a mudanças de escopo.
 ```bash
 pip install -r requirements.txt
 python src/app.py
+
+<!-- teste de CI -->
