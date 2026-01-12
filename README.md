@@ -45,4 +45,11 @@ e adaptação rápida a mudanças de escopo.
 pip install -r requirements.txt
 python src/app.py
 
-<!-- teste de CI -->
+## Gestão de Mudanças de Escopo
+
+Durante o desenvolvimento do projeto, foi identificada a necessidade de melhorar o acompanhamento do fluxo de trabalho das tarefas. Inicialmente, o sistema permitia apenas o cadastro e a listagem das tarefas, sem controle explícito de status.
+
+Como melhoria, foi adicionada a funcionalidade de status das tarefas, permitindo classificá-las como pendente, em andamento ou concluída. Essa alteração tornou o sistema mais aderente à realidade de equipes operacionais, especialmente no contexto de uma startup de logística, onde o acompanhamento do progresso é essencial.
+
+A mudança de escopo foi registrada no quadro Kanban do GitHub Projects, com criação de nova tarefa, movimentação entre as colunas e posterior conclusão, seguindo os princípios da metodologia ágil Kanban.
+
