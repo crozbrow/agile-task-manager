@@ -44,8 +44,11 @@ e adaptação rápida a mudanças de escopo.
 ```bash
 pip install -r requirements.txt
 python src/app.py
+```
 
-## Gestão de Mudanças de Escopo
+---
+
+## 🔁 Gestão de Mudanças de Escopo
 
 Durante o desenvolvimento do projeto, foi identificada a necessidade de melhorar o acompanhamento do fluxo de trabalho das tarefas. Inicialmente, o sistema permitia apenas o cadastro e a listagem das tarefas, sem controle explícito de status.
 
